@@ -1,0 +1,38 @@
+<?php
+
+use App\Core\Enviroments;
+
+require __DIR__ . '/vendor/autoload.php';
+
+/* carrega as variáveis de ambiente */
+Enviroments::load(__DIR__ . '/config');
+
+/* inclui a página inicial */
+$url = (isset($_GET['url'])) ? $_GET['url'] : 'home';
+
+/* define o diretório para verificação de url */
+$diretorio = 'pages';
+
+/* definição de páginas permitidas */
+$paginasPermitidas = array('404', 'home');
+
+if (substr_count($url, '/') > 0) {
+
+    /* converte a url em array */
+    $url = explode('/', $url);
+
+    /* define título da página */
+    define('APP_TITLE', strtoupper($url[0]));
+
+    /* verifica se a página requisitada existe */
+    $pg = (file_exists("{$diretorio}/" . $url[0] . '.php')) && in_array($url[0], $paginasPermitidas) ? $url[0] : '404';
+} else {
+
+    /* define título da página */
+    define('APP_TITLE', strtoupper($url));
+
+    $pg = (file_exists("{$diretorio}/" . $url . '.php')) && in_array($url, $paginasPermitidas) ? $url : '404';
+}
+
+/* adiciona a página */
+require("{$diretorio}/{$pg}.php");
