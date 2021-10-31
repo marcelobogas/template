@@ -14,7 +14,7 @@ $url = (isset($_GET['url'])) ? $_GET['url'] : 'home';
 $diretorio = 'pages';
 
 /* definição de páginas permitidas */
-$paginasPermitidas = array('404', 'home');
+$paginasPermitidas = array('404', 'home', 'about', 'blog', 'contact', 'courses');
 
 if (substr_count($url, '/') > 0) {
 

@@ -12,6 +12,14 @@
     position           : relative;
 }
 
+.header-courses {
+    min-height         : 50vh;
+    width              : 100%;
+    background-position: center;
+    background-size    : cover;
+    position           : relative;
+}
+
 nav {
     display        : flex;
     padding        : 2% 6%;

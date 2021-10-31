@@ -6,11 +6,11 @@
         <div class="nav-links" id="nav-links">
             <i class="fa fa-times" onclick="hideMenu();"></i>
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">COURSE</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">CONTACT </a></li>
+                <li><a href="home">HOME</a></li>
+                <li><a href="about">ABOUT</a></li>
+                <li><a href="courses">COURSE</a></li>
+                <li><a href="blog">BLOG</a></li>
+                <li><a href="contact">CONTACT </a></li>
             </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu();"></i>
@@ -128,18 +128,5 @@
     <h1>Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
     <a href="" class="hero-btn">CONTACT US</a>
 </section>
-
-<!-- JavaScript for Toggle Menu -->
-<script>
-    var navlinks = document.getElementById("nav-links");
-
-    function showMenu() {
-        navlinks.style.right = "0";
-    }
-
-    function hideMenu() {
-        navlinks.style.right = "-200px";
-    }
-</script>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>

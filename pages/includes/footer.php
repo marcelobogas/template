@@ -10,6 +10,20 @@
         <p>Made with  <i class="fa fa-heart-o"></i> by Marcelo Bogás</p>
     </section>
 
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navlinks = document.getElementById("nav-links");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
 </body>
 
 </html>
