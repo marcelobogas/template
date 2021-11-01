@@ -126,7 +126,7 @@
 
 <section class="cta" style="background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(<?= getenv('APP_IMG') ?>/online-courses.jpg);">
     <h1>Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
-    <a href="" class="hero-btn">CONTACT US</a>
+    <a href="contact" class="hero-btn">CONTACT US</a>
 </section>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
