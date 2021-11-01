@@ -3,11 +3,11 @@
 ___
 
 ## Pre-Requisitos
-- Php ^7.4
+- Php - ^7.4
 - Composer
 
 ___
 
 ## Instalação
-- Rodar os seguintes comandos no (Terminal) ou (CMD)
+- Rodar o seguinte comandos no terminal após baixar o projeto
     - composer install
