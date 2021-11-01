@@ -23,7 +23,7 @@
         <div class="about-col">
             <h1>We are the world's largest university</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ratione veritatis eius, hic quia debitis consequatur illum odio molestias similique expedita ex esse, explicabo alias, officiis nemo voluptates. Impedit, nam!</p>
-            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            <a href="courses" class="hero-btn red-btn">EXPLORE NOW</a>
         </div>
         <div class="about-col">
             <img src="<?= getenv('APP_IMG'); ?>/about-us.jpg">

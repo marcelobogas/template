@@ -18,7 +18,7 @@
     <div class="text-box">
         <h1>World's Biggest University</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eum libero minus velit odit, laborum modi?<br> Harum ullam quisquam numquam sequi provident, temporibus accusantium quam nam eius vitae, dolor qui!</p>
-        <a href="" class="hero-btn">Visit Us To Know More</a>
+        <a href="about" class="hero-btn">Visit Us To Know More</a>
     </div>
 </section>
 
@@ -126,7 +126,7 @@
 
 <section class="cta" style="background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(<?= getenv('APP_IMG') ?>/online-courses.jpg);">
     <h1>Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
-    <a href="contact" class="hero-btn">CONTACT US</a>
+    <a href="blog" class="hero-btn">CONTACT US</a>
 </section>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>

@@ -22,14 +22,14 @@ if (substr_count($url, '/') > 0) {
     $url = explode('/', $url);
 
     /* define título da página */
-    define('APP_TITLE', strtoupper($url[0]));
+    define('APP_TITLE', ucfirst($url[0]));
 
     /* verifica se a página requisitada existe */
     $pg = (file_exists("{$diretorio}/" . $url[0] . '.php')) && in_array($url[0], $paginasPermitidas) ? $url[0] : '404';
 } else {
 
     /* define título da página */
-    define('APP_TITLE', strtoupper($url));
+    define('APP_TITLE', ucfirst($url));
 
     $pg = (file_exists("{$diretorio}/" . $url . '.php')) && in_array($url, $paginasPermitidas) ? $url : '404';
 }

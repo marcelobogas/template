@@ -23,12 +23,16 @@
         <div class="blog-left">
             <img src="<?= getenv('APP_IMG'); ?>/certificate.jpg">
             <h2>Our Certificate & Online Programs For <?= date('Y'); ?></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate exercitationem quibusdam nostrum rem architecto soluta consectetur asperiores officiis odio commodi perferendis quos quasi rerum, accusamus maiores qui neque aspernatur placeat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate exercitationem quibusdam nostrum rem architecto soluta consectetur asperiores officiis odio commodi perferendis quos quasi rerum, accusamus maiores qui neque aspernatur placeat.
+                Laudantium aperiam nobis doloremque veniam dolore maiores cumque facilis vel atque deleniti! Esse recusandae laboriosam veniam iste iure ea, officia saepe modi?</p>
             <br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium aperiam nobis doloremque veniam dolore maiores cumque facilis vel atque deleniti! Esse recusandae laboriosam veniam iste iure ea, officia saepe modi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, recusandae optio placeat enim soluta ipsum. Distinctio unde eum voluptatibus dolor ducimus similique, doloremque libero veritatis impedit vel voluptatum, saepe odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iure aliquam recusandae modi sit fugit, atque, aperiam aliquid tempora harum similique? Velit voluptatibus, odit in esse quis quibusdam dolorum? Repudiandae?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, ullam magnam consectetur minus quasi temporibus veniam necessitatibus modi similique porro provident atque esse quae rem cumque. Assumenda ratione eaque eveniet.
+            </p>
             <br>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A officia temporibus sequi non. Suscipit quod fuga nulla a voluptates aut alias amet recusandae nobis obcaecati modi quisquam, sequi libero odio!</p>
-        
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam deleniti harum facere. Ea voluptas eveniet quo iusto error natus corporis at facere atque a assumenda possimus consequuntur, libero laborum?</p>
+
             <div class="comment-box">
                 <h3>Leave on comment</h3>
                 <form class="comment-form">
